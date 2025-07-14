@@ -2,6 +2,7 @@
 Pipeline complet pour analyser un fichier audio en langue anglaise, le transcrire en texte et en prédire le sentiment associé.
 
 ##  Architecture du projet
+```graphql
 Speech-to-Sentiment/
 ├── data/                      # Données audio (Savee, Ravdess, Crema, Tess) (non versionné)
 ├── pipeline.py                # Pipeline principal : transcription + sentiment
@@ -13,13 +14,13 @@ Speech-to-Sentiment/
 ├── requirements.txt           # Dépendances du projet
 ├── README.md                  # Documentation
 ├── venv/                      # Environnement virtuel Python (non versionné)
-
+```
 
 ## Étapes de reproduction
 -  Prérequis
-  -- Python >= 3.8
-  -- Git
-  -- Accès internet pour télécharger les modèles HuggingFace
+  - Python >= 3.8
+  - Git
+  - Accès internet pour télécharger les modèles HuggingFace
 
 - Installation
   1 Clonez le dépôt :
