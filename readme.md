@@ -18,9 +18,9 @@ Speech-to-Sentiment/
 
 ## Étapes de reproduction
 -  Prérequis
-  - Python >= 3.8
-  - Git
-  - Accès internet pour télécharger les modèles HuggingFace
+  + Python >= 3.8
+  + Git
+  + Accès internet pour télécharger les modèles HuggingFace
 
 - Installation
   1 Clonez le dépôt :
