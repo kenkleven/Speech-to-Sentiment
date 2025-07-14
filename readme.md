@@ -52,7 +52,9 @@ python pipeline.py
 Les résultats (transcriptions, sentiments prévus et vrais) sont sauvegardés dans evaluation_results.csv.
 
 - Lancer l’interface Gradio
+
 ![App Gradio](gradio.png)
+
 ```bash
 python gradio_ui.py
 ```
@@ -60,7 +62,9 @@ python gradio_ui.py
 - Vous pouvez téléverser un fichier .wav et voir la transcription et le sentiment.
 
 - Lancer l’API FastAPI
+
 ![Api FastApi](api.png)
+
 ```bash
 python api.py
 ```
