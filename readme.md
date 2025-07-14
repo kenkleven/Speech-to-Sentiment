@@ -1,6 +1,9 @@
 #  Speech-to-Sentiment
 Pipeline complet pour analyser un fichier audio en langue anglaise, le transcrire en texte et en prédire le sentiment associé.
 
+## Lien du dataset 
+https://www.kaggle.com/datasets/dmitrybabko/speech-emotion-recognition-en
+
 ##  Architecture du projet
 ```graphql
 Speech-to-Sentiment/
@@ -81,4 +84,4 @@ http://localhost:8000/docs
 ## Modèles utilisés
 - Speech-to-Text : facebook/wav2vec2-base-960h
 - Sentiment Analysis : distilbert-base-uncased-finetuned-sst-2-english
-
+ 
