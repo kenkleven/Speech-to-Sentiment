@@ -18,60 +18,58 @@ Speech-to-Sentiment/
 
 ## Étapes de reproduction
 -  Prérequis
-  + Python >= 3.8
-  + Git
-  + Accès internet pour télécharger les modèles HuggingFace
+  Python >= 3.8, Git et Accès internet pour télécharger les modèles HuggingFace
 
 - Installation
-  1 Clonez le dépôt :
-  ```bash
-  git clone <lien_du_depot>
-  cd Speech-to-Sentiment
-  ```
-  2️ Créez un environnement virtuel :
-  ```bash
-  python -m venv venv
-  .\venv\Scripts\activate   # sous Windows
-  # ou
-  source venv/bin/activate  # sous Linux/Mac
-  ```
-  3️ Installez les dépendances :
-  ```bash
-  pip install -r requirements.txt
-  ```
+1 Clonez le dépôt :
+```bash
+git clone <lien_du_depot>
+cd Speech-to-Sentiment
+```
+2️ Créez un environnement virtuel :
+```bash
+python -m venv venv
+.\venv\Scripts\activate   # sous Windows
+# ou
+source venv/bin/activate  # sous Linux/Mac
+```
+3️ Installez les dépendances :
+```bash
+pip install -r requirements.txt
+```
 
-  4 Puis exécutez :
-  ```bash
-  python extract_labels.py
-  ```
-  Cela génère le fichier all_labels.csv.
+4 Puis exécutez :
+```bash
+python extract_labels.py
+```
+Cela génère le fichier all_labels.csv.
 
-  5 Évaluer le pipeline
-  Lancez l’évaluation complète du dataset : 
-   ```bash
-  python pipeline.py
-  ```
-  Les résultats (transcriptions, sentiments prévus et vrais) sont sauvegardés dans evaluation_results.csv.
+5 Évaluer le pipeline
+Lancez l’évaluation complète du dataset : 
+```bash
+python pipeline.py
+```
+Les résultats (transcriptions, sentiments prévus et vrais) sont sauvegardés dans evaluation_results.csv.
 
 - Lancer l’interface Gradio
-  ```markdown
-  ![App Gradio](gradio.png)
-  ```
-   ```bash
-  python gradio_ui.py
-  ```
-  - Une URL locale et une URL publique seront affichées.
-  - Vous pouvez téléverser un fichier .wav et voir la transcription et le sentiment.
+```markdown
+![App Gradio](gradio.png)
+```
+```bash
+python gradio_ui.py
+```
+- Une URL locale et une URL publique seront affichées.
+- Vous pouvez téléverser un fichier .wav et voir la transcription et le sentiment.
 
 - Lancer l’API FastAPI
-  ```markdown
-  ![Api FastApi](api.png)
-  ```
-   ```bash
-  python api.py
-  ```
-  - Documentation interactive de l’API accessible sur :
-  http://localhost:8000/docs
+```markdown
+![Api FastApi](api.png)
+```
+```bash
+python api.py
+```
+- Documentation interactive de l’API accessible sur :
+http://localhost:8000/docs
 
 
 ## Cas d’usage
