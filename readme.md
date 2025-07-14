@@ -21,7 +21,7 @@ Speech-to-Sentiment/
   -- Git
   -- Accès internet pour télécharger les modèles HuggingFace
 
--  Installation
+- Installation
   1 Clonez le dépôt :
   ```bash
   git clone <lien_du_depot>
@@ -39,13 +39,13 @@ Speech-to-Sentiment/
   pip install -r requirements.txt
   ```
 
-- Puis exécutez :
+  4 Puis exécutez :
   ```bash
   python extract_labels.py
   ```
   Cela génère le fichier all_labels.csv.
 
-- Évaluer le pipeline
+  5 Évaluer le pipeline
   Lancez l’évaluation complète du dataset : 
    ```bash
   python pipeline.py
@@ -59,8 +59,8 @@ Speech-to-Sentiment/
    ```bash
   python gradio_ui.py
   ```
-  ➡️ Une URL locale et une URL publique seront affichées.
-  ➡️ Vous pouvez téléverser un fichier .wav et voir la transcription et le sentiment.
+  - Une URL locale et une URL publique seront affichées.
+  - Vous pouvez téléverser un fichier .wav et voir la transcription et le sentiment.
 
 - Lancer l’API FastAPI
   ```markdown
@@ -69,7 +69,7 @@ Speech-to-Sentiment/
    ```bash
   python api.py
   ```
-  ➡️ Documentation interactive de l’API accessible sur :
+  - Documentation interactive de l’API accessible sur :
   http://localhost:8000/docs
 
 
