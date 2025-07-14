@@ -77,3 +77,8 @@ http://localhost:8000/docs
 - Intégrer la prédiction de sentiment d’audio dans une application tierce via l’API FastAPI.
 - Permettre à des utilisateurs de tester le pipeline facilement via l’interface Gradio.
 - Visualiser les résultats d’évaluation pour analyser les erreurs et améliorer la précision
+
+## Modèles utilisés
+- Speech-to-Text : facebook/wav2vec2-base-960h
+- Sentiment Analysis : distilbert-base-uncased-finetuned-sst-2-english
+
